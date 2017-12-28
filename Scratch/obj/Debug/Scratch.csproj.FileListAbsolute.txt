@@ -1,0 +1,11 @@
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\Scratch\bin\Debug\Scratch.dll.config
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\Scratch\bin\Debug\Scratch.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\Scratch\bin\Debug\Scratch.pdb
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\Scratch\bin\Debug\EntityFramework.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\Scratch\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\Scratch\bin\Debug\EntityFramework.xml
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\Scratch\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\Scratch\obj\Debug\Scratch.csprojResolveAssemblyReference.cache
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\Scratch\obj\Debug\Scratch.csproj.CoreCompileInputs.cache
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\Scratch\obj\Debug\Scratch.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\Scratch\obj\Debug\Scratch.pdb

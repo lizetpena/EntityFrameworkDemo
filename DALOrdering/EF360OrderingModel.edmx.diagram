@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7d33227d7a8e469ea70708da2cc5a51b" Name="Diagram1">
+        <EntityTypeShape EntityType="EF360OrderingModel.Category" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF360OrderingModel.InternationalOrder" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF360OrderingModel.OrderDetail" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF360OrderingModel.Order" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF360OrderingModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF360OrderingModel.Supplier" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EF360OrderingModel.SupplierType" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="EF360OrderingModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="EF360OrderingModel.FK_InternationalOrders_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="EF360OrderingModel.FK_Order_Details_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="EF360OrderingModel.FK_Order_Details_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="EF360OrderingModel.FK_Products_Suppliers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,11 @@
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DAL\bin\Debug\DAL.dll.config
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DAL\bin\Debug\DAL.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DAL\bin\Debug\DAL.pdb
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DAL\bin\Debug\EntityFramework.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DAL\bin\Debug\EntityFramework.xml
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DAL\obj\Debug\DAL.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DAL\obj\Debug\DAL.pdb

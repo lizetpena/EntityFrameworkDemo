@@ -1,0 +1,11 @@
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DALOrdering\obj\Debug\DALOrdering.csprojResolveAssemblyReference.cache
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DALOrdering\obj\Debug\DALOrdering.csproj.CoreCompileInputs.cache
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DALOrdering\bin\Debug\DALOrdering.dll.config
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DALOrdering\bin\Debug\DALOrdering.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DALOrdering\bin\Debug\DALOrdering.pdb
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DALOrdering\bin\Debug\EntityFramework.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DALOrdering\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DALOrdering\bin\Debug\EntityFramework.xml
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DALOrdering\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DALOrdering\obj\Debug\DALOrdering.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\DALOrdering\obj\Debug\DALOrdering.pdb

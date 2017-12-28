@@ -1,0 +1,17 @@
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\bin\EF360CodeOnly.dll.config
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\bin\EF360CodeOnly.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\bin\EF360CodeOnly.pdb
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\bin\DAL.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\bin\DALOrdering.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\bin\EntityFramework.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\bin\EntityFramework.SqlServer.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\bin\DALOrdering.pdb
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\bin\DALOrdering.dll.config
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\bin\DAL.pdb
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\bin\DAL.dll.config
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\bin\EntityFramework.xml
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\bin\EntityFramework.SqlServer.xml
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\obj\Debug\EF360CodeOnly.dll
+C:\Users\lipenade\OneDrive - Microsoft\Code\EF6_DatabaseFirstDemoCode\_DatabaseFirst\EF360\obj\Debug\EF360CodeOnly.pdb

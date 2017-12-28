@@ -1,0 +1,149 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="EF360CodeOnly.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    Entity Framework 360, Version 5
+                </h1>
+            </div>
+            <%--<div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                       
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>--%>
+            <div class="clear hideSkiplink">
+                 <asp:Menu ID="NavigationMenu" runat="server" BackColor="#FFFBD6" BorderStyle="Ridge" 
+                     DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="Small" 
+                     ForeColor="#990000" Orientation="Horizontal" StaticSubMenuIndent="10px"> 
+                            <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <DynamicMenuStyle BackColor="#FFFBD6" />
+                            <DynamicSelectedStyle BackColor="#FFCC66" />
+                            <Items>
+                                <asp:MenuItem Text="Home" Value="Home" 
+                                    NavigateUrl="~/Default.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Query" Value="Query">
+                                    <asp:MenuItem Text="Simple" Value="Simple" 
+                                        NavigateUrl="~/Querying/SimpleQuery.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Projection" Value="Projection" 
+                                        NavigateUrl="~/Querying/Projection.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Adhoc" Value="Adhoc" 
+                                        NavigateUrl="~/Querying/AdhocQuery.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Group By" Value="GroupBy"
+                                        NavigateUrl="~/Querying/GroupBy.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Aggregates" Value="Aggregates"
+                                        NavigateUrl="~/Querying/Aggregates.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Quantifiers" Value="Quantifiers"
+                                        NavigateUrl="~/Querying/Quantifiers.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Set Processing" Value="Set" 
+                                        NavigateUrl="~/Querying/Set.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Query Method Order" Value="Query Method Order"
+                                        NavigateUrl="~/Querying/QueryMethodOrder.aspx" 
+                                        ToolTip="Method syntax query assembled in different orders"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Relationships" Value="Relationships">
+                                    <asp:MenuItem NavigateUrl="~/Relationships/InferredRelationships.aspx" Text="Inferred" 
+                                        Value="Inferred"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Relationships/ObjectGraph.aspx" 
+                                        Text="Object Graph" Value="Object Graph"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Relationships/ExplicitLoading.aspx" 
+                                        Text="Explicit Loading" Value="Explicit Loading"></asp:MenuItem>
+                                </asp:MenuItem>
+                                
+                                
+                                
+                                
+                               <%-- <asp:MenuItem Text="Explicit" Value="Explicit">
+                                    <asp:MenuItem Text="Retrieve" Value="Retrieve"></asp:MenuItem>
+                                    <asp:MenuItem Text="Insert" Value="Insert"></asp:MenuItem>
+                                </asp:MenuItem>--%>
+                                <asp:MenuItem Text="Change Tracking" Value="Change Tracking">
+                                    <asp:MenuItem NavigateUrl="~/Updating/Updates.aspx" Text="Basic Updating" 
+                                        Value="Basic Updating"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Updating/BasicInserting.aspx" Text="Basic Inserting" 
+                                        Value="Basic Inserting"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Concurrency/ConcurrencyExample.aspx" Text="Concurrency" 
+                                        Value="Concurrency"></asp:MenuItem>
+                                     <asp:MenuItem NavigateUrl="~/Updating/ExplicitTransactions.aspx" Text="Explicit Transaction" 
+                                        Value="Explicit Transaction"></asp:MenuItem>
+                                    <%--<asp:MenuItem Text="-------------------------" Value="-------------------------"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Updating/BasicInserting.aspx" Text="Inserts" 
+                                        Value="Basic Inserting"></asp:MenuItem>--%>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Stored Procedures" Value="Stored Procedures">
+                                    <asp:MenuItem NavigateUrl="~/StoredProcedures/TopTen.aspx" Text="Top Ten Items" 
+                                        Value="Top Ten Items"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/StoredProcedures/UpdateEmployee.aspx" 
+                                        Text="Update Employee" Value="Update Employee"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/StoredProcedures/ProductComplexType.aspx" 
+                                        Text="Complex Type Usage" Value="Product - Complex Type Usage"></asp:MenuItem>
+                                    <asp:MenuItem Text="Scratch" Value="Scratch"
+                                        NavigateUrl="~/StoredProcedures/Scratch.aspx"></asp:MenuItem>
+                                   </asp:MenuItem>
+                                 <asp:MenuItem Text="Advanced Mapping" Value="Advanced Mapping">
+                                    <asp:MenuItem NavigateUrl="~/AdvancedMapping/EntitySplittingView.aspx" Text="Entity Splitting - Select" 
+                                        Value="Entity Splitting - Select"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/AdvancedMapping/EntitySplittingUpdate.aspx" Text="Entity Splitting - Update" 
+                                        Value="Entity Splitting - Update"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/AdvancedMapping/TablePerHierarchyView.aspx" 
+                                        Text="Table Per Hierarchy - Select" 
+                                        Value="Table Per Hierarchy - Select"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/AdvancedMapping/TablePerHierarchyUpdate.aspx" 
+                                        Text="Table Per Hierarchy - Update" 
+                                        Value="Table Per Hierarchy - Update"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/AdvancedMapping/TablePerType.aspx" Text="Table Per Type Inheritance" 
+                                        Value="Table Per Type Inheritance"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Misc" Value="Misc">
+                                    <asp:MenuItem NavigateUrl="~/Local/LocalData.aspx" 
+                                        Text="Observable Local Property" 
+                                        Value="Observable Local Property"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Finding/FindingEntities.aspx" 
+                                        Text="Find Method" 
+                                        Value="Find Method"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Proxies/Proxies.aspx" 
+                                        Text="Dynamic Proxy Objects" 
+                                        Value="Dynamic Proxy Objects"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Scratch" Value="Scratch">
+                                    <asp:MenuItem NavigateUrl="~/Scratch/TopClause.aspx" Text="Top Clause" 
+                                        Value="Top Clause"></asp:MenuItem>
+                                </asp:MenuItem>
+                            </Items>
+                            <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                            <StaticMenuItemStyle HorizontalPadding="10px" VerticalPadding="2px" />
+                            <StaticSelectedStyle BackColor="#FFCC66" />
+                        </asp:Menu>
+               
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>
